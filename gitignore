@@ -1,0 +1,26 @@
+# Standard Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Data Files (Protects your 45k bank marketing CSV from choking Git)
+*.csv
+*.xlsx
+*.parquet
+
+# Enterprise Security (Watertight shield for Snowflake credentials)
+.env
+*.env
+credentials.json
+.google_colab_config/
+secrets.py
+
+# System clutter
+.DS_Store
+Thumbs.db
