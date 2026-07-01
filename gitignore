@@ -9,18 +9,18 @@ venv/
 .venv/
 env/
 
-# Data Files (Protects your 45k bank marketing CSV from choking Git)
+# Data Files
 *.csv
 *.xlsx
 *.parquet
 
-# Enterprise Security (Watertight shield for Snowflake credentials)
+# Enterprise Security
 .env
 *.env
 credentials.json
 .google_colab_config/
 secrets.py
 
-# System clutter
+# System Clutter
 .DS_Store
 Thumbs.db
